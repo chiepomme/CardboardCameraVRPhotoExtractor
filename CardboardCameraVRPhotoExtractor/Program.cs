@@ -35,7 +35,7 @@ namespace CardboardCameraVRPhotoExtractor
                 try
                 {
                     var metadata = MetadataReader.Read(filePath);
-                    var combinedImagePath = filePath.Replace(".vr.jpg", ".joined.jpg");
+                    var combinedImagePath = filePath.Replace(".vr.jpg", ".joined.png");
 
                     using (var leftStream = new FileStream(filePath, FileMode.Open, FileAccess.Read))
                     using (var rightStream = new MemoryStream(metadata.RightImageBytes, false))
