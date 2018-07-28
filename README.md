@@ -1,5 +1,5 @@
 # CardboardCameraVRPhotoExtractor
-Extract Mirage Solo's side by side photos
+Extract Mirage Camera's side by side photos
 
 画像の仕様はこちらの Cardboard Camera VR Photo Format と同じようです。  
 [Cardboard Camera VR Photo Format  \|  Google VR  \|  Google Developers](https://developers.google.com/vr/reference/cardboard-camera-vr-photo-format)
